@@ -18,7 +18,7 @@ public class PopularCouponsPage extends BasePage {
     private static final By COUPON_CARDS = By.xpath(PLAY_BUTTONS + "/ancestor::div[@data-cs][1]");
     private static final By EVENT_ROW = By.cssSelector("[data-testid^='event-row-']");
     private static final By EVENT_NAME = By.cssSelector("[data-testid='event-name']");
-    // no test id on the date or the header, see README
+    // no test id on the date or the header
     private static final By EVENT_DATE = By.xpath(".//span[@data-testid='event-rate']/../following-sibling::div[1]");
     private static final By MATCH_COUNT = By.xpath(".//span[normalize-space()='Maç']/preceding-sibling::b[1]");
 
